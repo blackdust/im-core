@@ -7,7 +7,7 @@ Page = React.createClass
   render: ->
     { getFieldDecorator } = @props.form
     formItemLayout = {
-      labelCol: { span: 3 },
+      labelCol: { span: 8 },
       wrapperCol: { span: 14 },
     }
     <div className='user-new-page'>

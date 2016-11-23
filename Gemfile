@@ -88,7 +88,7 @@ gem "figaro", "~> 1.1.1"
 gem 'mongoid', "~> 6.0.0"
 gem 'mongoid-tree', "~> 2.1.0", :require => 'mongoid/tree'
 
-gem 'enumerize', "~> 2.0"
+
 ### 以下是部署相关
 gem "rest-client", "2.0.0"
 

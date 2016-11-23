@@ -13,16 +13,15 @@ Rails.application.routes.draw do
   }
 
   root to: 'index#index'
+
   
   namespace :admin do
     resources :users
     resources :organizations do
       get :tree_show, on: :collection
     end
-    resources :faqs
-    resources :references
-    resources :tags
   end
+
 
   resources :organizations do
     get :trees, on: :collection
